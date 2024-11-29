@@ -1,0 +1,339 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+/* Modern Header Style */
+header.op {
+    background: linear-gradient(to right, #e0f7fa, #f5f5f5);;
+    color: #005f73;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.header-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header.op h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+header.op p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #1d1e1f;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header.op h1 {
+        font-size: 2rem;
+    }
+    header.op p {
+        font-size: 1rem;
+    }
+}
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.video-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start; /* Alinea los cuadros hacia la izquierda */
+}
+.video-card {
+    display: flex; /* Flexbox para organizar video y texto horizontalmente */
+    align-items: center; /* Alinea verticalmente los elementos */
+    gap: 15px; /* Espacio entre el video y el contenido de texto */
+    background: #e0f7fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+.video-card video {
+    width: 300px; /* Tamaño del video */
+    border-radius: 8px;
+}
+.video-content {
+    flex: 1; /* Toma el espacio restante en la fila */
+    text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+}
+.video-content h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
+.video-content p {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.5;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #005f73;
+    color: white;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .video-card {
+        flex-direction: column; /* Cambia a disposición vertical en pantallas pequeñas */
+        align-items: center;
+    }
+    .video-card video {
+        width: 100%; /* Video ocupa todo el ancho en pantallas pequeñas */
+    }
+    .video-content {
+        max-width: 100%;
+        text-align: center; /* Texto centrado en pantallas pequeñas */
+    }
+}
+
+.parrafo{
+    text-align: left;
+    
+    
+}
+
+.parrafo2{
+    text-align: left;
+    
+}
+
+.tex{
+    text-align: left;
+}
+
+.h3{
+    text-align:left;
+}
+
+.pc{
+     text-align:left;
+}
+
+.introduccion{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sección de infografías */
+.infographics-section {
+    max-width: 1200px;
+    margin: 0 auto 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.infographics-section h2 {
+    color: #005f73;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de las infografías */
+.infographic-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Tarjetas individuales */
+.infographic-card {
+    background: #e0f7fa;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 220px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.infographic-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen dentro de la tarjeta */
+.infographic-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Título y descripción */
+.infographic-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.infographic-card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+}
+
+/* Sección de referencias */
+.references-section {
+    background: #005f73;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 4px solid #0e7490;
+}
+
+.references-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #e0f7fa;
+}
+
+.references-list {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0;
+    margin: 0;
+}
+
+.references-list li {
+    margin: 10px 0; /* Espaciado entre enlaces */
+}
+
+.references-list a {
+    text-decoration: none; /* Sin subrayado */
+    color: #e0f7fa;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.references-list a:hover {
+    color: #cde6f5; /* Cambia de color al pasar el cursor */
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .references-section {
+        padding: 15px;
+    }
+
+    .references-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .references-list a {
+        font-size: 0.9rem;
+    }
+}
+
+/* Sección de Introducción */
+.introduccion {
+    background: linear-gradient(to right, #e0f7fa, #cee9e3);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.introduccion h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #005f73;
+}
+
+.introduccion p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Lista moderna */
+.modern-list {
+    background: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.modern-list h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #005f73;
+    text-align: center;
+}
+
+.method-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.method-list li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.1rem;
+}
+
+.method-list li:last-child {
+    border-bottom: none;
+}
+
+.method-list .icon {
+    font-size: 1.5rem;
+    color: #005f73;
+}
+
+.method-list strong {
+    color: #0e7490;
+    font-weight: bold;
+}
+
+
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .infographic-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infographic-card {
+        max-width: 100%;
+    }
+}
+
+
+
+    
